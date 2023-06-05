@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="450.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AfterRegistrationController">
+   <children>
+      <Pane layoutX="25.0" layoutY="22.0" prefHeight="700.0" prefWidth="400.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="31.0" layoutY="64.0" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #76D24F;" text="Event Created!" />
+            <Label layoutX="31.0" layoutY="124.0" style="-fx-font-size: 16px; -fx-text-fill: #000000;" text="Your event has been successfully created." />
+            <Button fx:id="Done" layoutX="127.0" layoutY="488.0" mnemonicParsing="false" onAction="#doneBtn" prefHeight="44.0" prefWidth="150.0" style="-fx-background-color: #76D24F; -fx-background-radius: 100;" text="Done" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Line endX="144.5" layoutX="231.0" layoutY="47.0" startX="-203.5" stroke="#76d24f" />
+            <Label fx:id="details" layoutX="26.0" layoutY="158.0" prefHeight="116.0" prefWidth="302.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="80.0" style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: #76D24F" text="Event Confirmation" />
+         </children>
+      </Pane>
+      <AnchorPane layoutY="676.0" prefHeight="80.0" prefWidth="450.0" style="-fx-background-color: #76D24F;">
+         <children>
+            <ImageView fitHeight="56.0" fitWidth="66.0" layoutX="11.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@jpg_events-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

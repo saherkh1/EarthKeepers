@@ -1,0 +1,12 @@
+.button {
+	-fx-background-color:#76D24F;
+	-fx-background-radius:100;
+	-fx-font-size:14;
+}
+
+
+.button:pressed {
+    -fx-background-color: #4cf205;
+    -fx-background-radius:100;
+    -fx-font-size:14;
+}
